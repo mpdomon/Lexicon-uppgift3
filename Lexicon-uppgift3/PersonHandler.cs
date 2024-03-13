@@ -9,7 +9,7 @@ namespace Lexicon_uppgift3
     internal class PersonHandler {
 
 
-        public Person CreatePerson(int age, string fname, string lname, int height, int weight) 
+        public Person CreatePerson(int age, string fname, string lname, double height, double weight) 
         { 
             Person person = new Person();
             person.Age = age;
@@ -25,5 +25,26 @@ namespace Lexicon_uppgift3
         public void setAge (Person pers, int age) {
             pers.Age = age;
         }
+
+        public void setFname (Person pers, string fname)
+        {
+            pers.fName = fname;
+        }
+
+        public void setLname (Person pers, string lname)
+        {
+            pers.lName = lname;
+        }
+
+        public void setHeight (Person pers, double height) 
+        {
+            pers.height = height;
+        }
+
+        public void setWeight (Person pers, double weight)
+        {
+            pers.weight = weight;
+        }
+
     }
 }

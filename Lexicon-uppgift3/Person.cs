@@ -11,8 +11,8 @@ namespace Lexicon_uppgift3
         private int age1;
         private string firstName;
         private string lastName;
-        private int height1;
-        private int weight1;
+        private double height1;
+        private double weight1;
         public int Age
         {
             get { return age1; }
@@ -56,7 +56,7 @@ namespace Lexicon_uppgift3
                 }
             }
         }
-        public int height
+        public double height
         {
             get { return height1; }
             set
@@ -71,7 +71,7 @@ namespace Lexicon_uppgift3
                 }
             }
         }
-        public int weight
+        public double weight
         {
             get { return weight1; }
             set
